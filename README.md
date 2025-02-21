@@ -11,7 +11,7 @@ This project implements an AI-based system to detect a person's movement (walkin
 - **Movement Detection**: Classifies the user's movement into **walking**, **running**, or **stepping on stairs** based on accelerometer and GPS data.
 - **Human-like Advisory**: Provides advice on the safety of the activity using the **Llama 3.1 model**.
 - **Speech Output**: Converts the advisory response into speech, making it easy for the user to receive the feedback.
-- **Simulated Data**: For now, random values are used to simulate accelerometer, GPS, and temperature data (since real sensor data from a smartphone is not accessible in this notebook).
+- **Simulated Data**: For now, random values are used to simulate accelerometer, GPS, and temperature data (since real sensor data from a smartphone is not accessible in this notebook).In a real implementation on a smartphone, we could replace the random data generation with actual sensor inputs using the following APIs that I have found from the internet: SensorManager API,CoreMotion API,LocationManager API,CoreLocation APIs etc.
 
 ## Installation
 
@@ -28,7 +28,7 @@ To run this system, you need:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/movement-detection-advisory.git
+    git clone https://github.com/DipanshuKumar449/MoveMate.git
     cd movement-detection-advisory
     ```
 
